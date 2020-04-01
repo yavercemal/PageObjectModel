@@ -21,4 +21,9 @@ public class BasePage {
         driver = new ChromeDriver();
         driver.get(baseUrl);
     }
+
+    @AfterTest
+    public void endSession() {
+        driver.quit();
+    }
 }
