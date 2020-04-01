@@ -14,7 +14,5 @@ public class HomePageTest extends BasePage {
     public void searchGoogle() throws IOException {
         HomePage.setGoogleTextbox(driver,"Turkey");
         HomePage.searchClick(driver);
-        endSession();
-
     }
 }
