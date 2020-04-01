@@ -14,7 +14,7 @@ public class HomePage {
     }
 
     public static void searchClick(WebDriver driver) {
-        element = driver.findElement(By.xpath("//div[@class='FPdoLc tfB0Bf']//input[@name='btnK]"));
+        element = driver.findElement(By.xpath("//div[@class='FPdoLc tfB0Bf']//input[@name='btnK']"));
         element.click();
     }
 }
