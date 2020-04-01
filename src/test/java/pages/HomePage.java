@@ -13,8 +13,8 @@ public class HomePage {
         element.sendKeys(searchTextbox);
     }
 
-    public static void searchTextboxClick(WebDriver driver) {
-        element = driver.findElement(By.xpath("//div[@class='FPdoLc tfB0Bf']//input[@name='btnK']"));
+    public static void searchClick(WebDriver driver) {
+        element = driver.findElement(By.xpath("//div[@class='FPdoLc tfB0Bf']//input[@name='btnK]"));
         element.click();
     }
 }
